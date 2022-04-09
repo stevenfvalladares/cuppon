@@ -58,3 +58,17 @@
     color: var(--green);
     text-align: center;
 }
+
+.footer {
+    background-color: var(--green);
+}
+.footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+.footer h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: var(--gray);
+    margin-top: 5px;
+}
