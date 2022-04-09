@@ -12,10 +12,46 @@
 }
 
 /*========================================*/
-/*-----------[Classes and Styles]---------*/
+/*-----------[Mobile and Tablets]---------*/
 /*========================================*/
 
+/*========================================*/
+/*----------------[Desktop]---------------*/
+/*========================================*/
 
+.bg-green {
+    background-color: var(--green);
+}
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar .container-fluid {
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+    }
+}
 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar .container-fluid {
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .navbar .container-fluid {
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;  
+    }
+}
+
+.navbar-nav {
+    margin-left: auto;
+    padding-right: 20px;
+}
+.navbar-nav a {
+    font-family: 'Roboto', sans-serif;
+}
 
